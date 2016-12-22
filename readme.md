@@ -7,6 +7,6 @@ Convert a GeoJSON collection of polygons to a collection of lines
 ```
 var poly2line = require('idris-polygons-to-lines')
 
-polygon2line(FeatureCollection)
+poly2line(FeatureCollection)
 // returns a GeoJSON FeatureCollection of LineStrings
 ```
