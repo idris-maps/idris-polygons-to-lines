@@ -1,7 +1,7 @@
 {
-  "name": "idris-polygons-to-line",
+  "name": "idris-polygons-to-lines",
   "version": "1.0.0",
-  "description": "Convert GeoJSON (Multi)Polygons to LineStrings ",
+  "description": "Convert GeoJSON (Multi)Polygons to LineStrings",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,9 @@
   "license": "GPL-2.0",
   "dependencies": {
     "topojson": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idris-maps/idris-polygons-to-lines.git"
   }
 }
